@@ -140,9 +140,9 @@ a:hover {
     }
 }
 
-@media (max-width:790px) {
+@media (max-width:500px) {
     .circle {
-        top: 7%;
+        top: 2%;
         background-size: 25rem;
     }
 }
@@ -306,4 +306,140 @@ a:hover {
         margin-top: 2rem;
         width: 100%;
     }
+}
+
+.Optimize_block {
+    margin-top: 10rem;
+}
+
+.op_row {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.op_col {
+    flex-basis: 20%;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    margin: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.op_col img {
+    padding-bottom: 20px;
+    width: 50px;
+}
+
+.op_col h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #0658a5;
+}
+
+.op_col p {
+    font-weight: 200;
+    color: #3d4247;
+}
+
+.company__logos {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .company__logos {
+        margin-top: 5rem;
+    }
+
+    .op_row {
+        width: 100%;
+        grid-template-columns: 50% 50%;
+    }
+
+    .op_col {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .op_row {
+        grid-template-columns: 100%;
+    }
+}
+
+.cmp_logo .company__logo {
+    margin-top: 10rem;
+}
+
+.btnget {
+    margin-right: 15px;
+}
+
+.artical_block {
+    margin: auto;
+    width: 90%;
+    margin-top: 6rem;
+}
+
+.head h2 {
+    padding: 20px 0;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.Ar_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Ar_col {
+    cursor: pointer;
+    flex-basis: 30%;
+    padding: 1rem;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.Ar_col img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.disc .date {
+    padding: 20px 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.date .link {
+    color: #0658a5;
+    font-size: 1.5rem;
+}
+
+.tag {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+    color: #0658a5;
+}
+
+.Ar_col p {
+    color: #3d4247;
+    font-size: 1.2rem;
+}
+
+.Ar_col:hover {
+    transform: scale(1.1);
 }
