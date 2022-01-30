@@ -357,6 +357,11 @@ a:hover {
     margin-top: 10rem;
 }
 
+.company__logos .title h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 1280px) {
     .company__logos {
         margin-top: 5rem;
@@ -431,15 +436,26 @@ a:hover {
 
 .tag {
     font-size: 1.3rem;
-    padding-bottom: 10px;
+    padding: 20px 0;
     color: #0658a5;
 }
 
 .Ar_col p {
     color: #3d4247;
     font-size: 1.2rem;
+
 }
 
 .Ar_col:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+    .Ar_row {
+        flex-direction: column;
+    }
+
+    .Ar_col {
+        margin-bottom: 3rem;
+    }
 }
